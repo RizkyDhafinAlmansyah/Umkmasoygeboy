@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable static export for Netlify
-  output: 'export',
+  // Comment atau hapus baris ini jika tidak perlu static export
+  // output: 'export',
   
-  // Disable image optimization for static export
+  // Keep image optimization
   images: {
-    unoptimized: true
+    unoptimized: true // Tetap true untuk compatibility
   },
   
   // Add trailing slash for better compatibility
